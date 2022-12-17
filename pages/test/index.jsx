@@ -3,7 +3,7 @@ import { getTestData } from 'services/test';
 import TestPage from 'components/test/Test';
 import { getCookiePrefs } from 'services/common';
 
-export default async function Page() {
+export default function Index() {
   return <TestPage />;
 }
 

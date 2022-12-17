@@ -3,6 +3,7 @@ import { useEffect, useState } from 'react';
 import { CacheProvider } from '@emotion/react';
 import createEmotionCache from 'helpers/emotion';
 import Header from 'components/header/Header';
+import CustomizedSnackbar from 'components/snackbar/Snackbar';
 import Cookies from 'universal-cookie';
 import { createTheme, CssBaseline, ThemeProvider } from '@mui/material';
 import { baseTheme, darkPalette, lightPalette } from 'styles/theme';
@@ -76,6 +77,7 @@ export default function RootLayout({
           <CssBaseline />
           <Header />
           <Component {...pageProps} />
+          <CustomizedSnackbar />
         </ThemeProvider>
       </CacheProvider>
     </AppContext.Provider>

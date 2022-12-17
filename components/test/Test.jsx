@@ -1,20 +1,19 @@
-import { Box, Typography } from '@mui/material';
+import { Box, Typography, Button } from '@mui/material';
 import { getContext } from 'helpers/context';
-import { useEffect } from 'react';
 
-export default function HomePage() {
-  const { testData, setSnackbarSuccess } = getContext();
+export default function TestPage() {
+  const { testData, triggerSnackbarSuccess } = getContext();
   const { title } = testData;
 
-  useEffect(() => {
-    if (title.testData) {
-      setSnackbarSuccess('Test data loaded successfully');
-    }
-  }, [testData]);
-
   return (
-    <Box>
-      <Typography>{title}</Typography>
+    <Box sx={{ p: 8 }}>
+      <Typography variant="h3">{title}</Typography>
+      <Button
+        variant="outlined"
+        onClick={() => triggerSnackbarSuccess('Button clicked')}
+      >
+        Trigger success snackbar
+      </Button>
     </Box>
   );
 }

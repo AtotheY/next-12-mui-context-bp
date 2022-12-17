@@ -1,5 +1,3 @@
-'use client';
-
 import { Box, Typography, IconButton } from '@mui/material';
 import { m } from 'helpers/sx';
 import { getContext } from 'helpers/context';
