@@ -2,13 +2,7 @@ This is a custom NEXT 13 (USING THE OLD NEXTJS STYLE, NOT APP FOLDER - FOR THAT 
 
 ## Getting Started
 
-First add a `.env.local` file to the root of the project with the following content:
-
-```bash
-API_ENDPOINT_URL=http://localhost:3000
-```
-
-Then, run the development server:
+Run the development server:
 
 ```bash
 npm run dev
