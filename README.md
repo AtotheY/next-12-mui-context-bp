@@ -1,4 +1,4 @@
-This is a custom NEXT 13 (USING THE OLD NEXTJS STYLE, NOT APP FOLDER - FOR THAT SEE [THIS REPO](https://github.com/AtotheY/next-13-mui-context-bp)) boilerplate that includes a setup for MUI & React Context.
+This is a custom NEXT 12 (USING THE OLD NEXTJS STYLE, NOT APP FOLDER - FOR THAT SEE [THIS REPO](https://github.com/AtotheY/next-13-mui-context-bp)) boilerplate that includes a setup for MUI & React Context.
 
 ## Getting Started
 
